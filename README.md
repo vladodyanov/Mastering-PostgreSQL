@@ -1,13 +1,22 @@
-#Plans
-Databases Introduction. Data Definition and Data Types.
-It's one thing to just store data; it's another to manage it effectively.
+# Mastering-PostgreSQL
+Welcome to the Mastering-PostgreSQL repository! This repository is designed to be a comprehensive resource for learning and mastering PostgreSQL. Here, you'll find a collection of theory, commands, and SQL files to help you understand and effectively use PostgreSQL for your database needs.
+Contents:
+Theory: Detailed explanations and theoretical concepts about PostgreSQL, including its architecture, data types, indexing, and more.
+Commands: A curated list of essential PostgreSQL commands for database management, querying, and optimization.
+SQL Files: Practical SQL scripts and examples to demonstrate various features and capabilities of PostgreSQL.
 
+
+## Table of Contents
+* [Databases Introduction](#databases-introduction)
+  
+# Databases Introduction.
+It's one thing to just store data; it's another to manage it effectively.
 The Problem with Flat Storage (Files):
-Size
-Update Complexity
-Accuracy
-Access Control
-What is a DBMS?
+-Size
+-Update Complexity
+-Accuracy
+-Access Control
+- What is a DBMS?
 Database Management System
 A system optimized for searching and processing data.
 We don't have direct access to the files; the DBMS manages this.
