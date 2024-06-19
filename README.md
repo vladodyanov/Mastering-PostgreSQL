@@ -141,12 +141,10 @@ _ for a single character.
 - GROUP BY allows using aggregate functions.
 - COUNT(DISTINCT()) for group count.
 - COUNT(*) for row count.
-Aggregate Functions: AVG, MIN, MAX, COUNT, SUM.
-HAVING for additional filtering using aggregate functions.
-CASE Statements
+- Aggregate Functions: AVG, MIN, MAX, COUNT, SUM.
+- HAVING for additional filtering using aggregate functions.
+- CASE Statements
 Simple Case for comparing one value.
-sql
-Copy code
 SELECT column_name,
     CASE grade
         WHEN 'A' THEN 'Excellent'
@@ -155,9 +153,7 @@ SELECT column_name,
         ELSE 'Poor'
     END AS grade_description
 FROM student_grades;
-General Case for comparing different conditions.
-sql
-Copy code
+- General Case for comparing different conditions.
 SELECT column_name,
     CASE 
         WHEN grade >= 90 THEN 'Excellent'
@@ -167,24 +163,20 @@ SELECT column_name,
         ELSE 'Poor'
     END AS grade_description
 FROM student_grades;
-Edge Cases to Keep in Mind
-COUNT() counts everything except NULL.
-WHERE is executed before returning data, like an if statement, grouping, and then HAVING.
+- Edge Cases to Keep in Mind
+- COUNT() counts everything except NULL.
+- WHERE is executed before returning data, like an if statement, grouping, and then HAVING.
 
 # Table Relations
-Entities: Steps in DB Design:
+1. Entities: Steps in DB Design:
 1.1 Define objects (each table represents an object).
 1.2 Create columns.
 1.3 Define primary keys (PK).
 1.4 Define relations (Many to One, Many to Many via junction/mapping table, One to One).
 1.5 Define constraints.
 1.6 Populate with test data.
-Cascade Delete
-Deleting a record also deletes all related records to maintain data consistency.
-Indexes
-Indexing a table creates a structure over it for faster searching.
-Clustered: Sorts values for binary search.
-Non-clustered: B-Tree (Balanced Tree), unique nodes with pointers to records.
+2. Cascade Delete
+- Deleting a record also deletes all related records to maintain data consistency.
 
 # Database Programmability
 Functions: Similar to views, written in different languages like Python, Pascal, plpgsql.
