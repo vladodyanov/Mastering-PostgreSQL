@@ -1,5 +1,5 @@
 # Mastering-PostgreSQL
-Welcome to the Mastering-PostgreSQL repository! 
+Welcome to my Mastering-PostgreSQL repository! 
 This repository is designed to be a comprehensive resource for learning and mastering PostgreSQL. Here, you'll find a collection of theory, commands, and SQL files to help you understand and effectively use PostgreSQL for your database needs.
 
 Theory: Detailed explanations and theoretical concepts about PostgreSQL, including its architecture, data types, indexing, and more.
@@ -7,6 +7,11 @@ Commands: A curated list of essential PostgreSQL commands for database managemen
 SQL Files: Practical SQL scripts and examples to demonstrate various features and capabilities of PostgreSQL.
 
 ## Table of Contents
+* [Databases Introduction](#databases-introduction)
+* [CRUD](#crud)
+* [Built-in Functions](#build-in-functions)
+* [Databases Introduction](#databases-introduction)
+* [Databases Introduction](#databases-introduction)
 * [Databases Introduction](#databases-introduction)
   
 # Databases Introduction.
@@ -75,7 +80,7 @@ The idea of SQL syntax is to resemble a sentence.
 - Clustered: Grouped in some way, often using the primary key.
 - Non-Clustered: Index on any field with links to the actual data.
 
-# CRUD - Create, Read, Update, Delete
+# CRUD
 
 1. Retrieve data with SELECT - READ
 - Filter with WHERE
