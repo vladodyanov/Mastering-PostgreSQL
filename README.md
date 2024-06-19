@@ -9,10 +9,10 @@ SQL Files: Practical SQL scripts and examples to demonstrate various features an
 ## Table of Contents
 * [Databases Introduction](#databases-introduction)
 * [CRUD](#crud)
-* [Built-in Functions](#build-in-functions)
-* [Databases Introduction](#databases-introduction)
-* [Databases Introduction](#databases-introduction)
-* [Databases Introduction](#databases-introduction)
+* [Built-in Functions](#built-in-functions)
+* [Data Aggregation](#data-agregation)
+* [Table Relations](#table-relations)
+* [Database Programmability](#database-programmability)
   
 # Databases Introduction.
 It's one thing to just store data; it's another to manage it effectively.
@@ -185,7 +185,8 @@ Indexes
 Indexing a table creates a structure over it for faster searching.
 Clustered: Sorts values for binary search.
 Non-clustered: B-Tree (Balanced Tree), unique nodes with pointers to records.
-Database Programmability
+
+# Database Programmability
 Functions: Similar to views, written in different languages like Python, Pascal, plpgsql.
 
 STABLE: Returns the same result for the same table, e.g., row count.
