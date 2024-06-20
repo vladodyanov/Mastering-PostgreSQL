@@ -188,8 +188,6 @@ Functions: Similar to views, written in different languages like Python, Pascal,
 
 - Transactions
 Actions on the database that can be rolled back if needed.
-sql
-Copy code
 BEGIN;
 UPDATE accounts SET balance = balance - 100 WHERE account_id = 1;
 UPDATE accounts SET balance = balance + 100 WHERE account_id = 2;
@@ -212,10 +210,9 @@ SAVEPOINT my_savepoint;
 UPDATE accounts SET balance - 30 WHERE id = 1;
 ROLLBACK TO SAVEPOINT my_savepoint;
 END;
-Triggers
-Functions executed before/after a DELETE/UPDATE/INSERT query.
-sql
-Copy code
+- Triggers
+  Functions executed before/after a DELETE/UPDATE/INSERT query.
+
 CREATE OR REPLACE FUNCTION update_last_modified()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -227,4 +224,5 @@ $$ LANGUAGE plpgsql;
 CREATE TRIGGER trigger_update_last_modified
 BEFORE UPDATE ON products
 FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
 *plpgsql - Procedural Language/PostgreSQL
