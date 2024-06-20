@@ -181,12 +181,12 @@ FROM student_grades;
 # Database Programmability
 Functions: Similar to views, written in different languages like Python, Pascal, plpgsql.
 
-STABLE: Returns the same result for the same table, e.g., row count.
-IMMUTABLE: Always returns the same result, e.g., square of a number.
-VOLATILE: Default, variable functions.
-Procedures: Usually void functions, executed by CALL.
+- STABLE: Returns the same result for the same table, e.g., row count.
+- IMMUTABLE: Always returns the same result, e.g., square of a number.
+- VOLATILE: Default, variable functions.
+- Procedures: Usually void functions, executed by CALL.
 
-Transactions
+- Transactions
 Actions on the database that can be rolled back if needed.
 sql
 Copy code
