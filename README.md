@@ -53,7 +53,7 @@ The idea of SQL syntax is to resemble a sentence.
 - No empty records (though sometimes they are okay, e.g., middle names).
   
 7. Keys
-- Primary Key: Always unique.
+- Primary Key: *Always unique*.
 - Foreign Key
 
 8. Entity/Relation Diagram
