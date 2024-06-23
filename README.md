@@ -107,8 +107,11 @@ CREATE TABLE customer_contacts AS SELECT customer_id, first_name FROM customers;
 BETWEEN 1 AND 3;
 
 1.1 Projection - Which columns to select.
+
 1.2 Selection - Selecting rows, often achieved with WHERE.
+
 1.3 Join - Combining columns.
+
 
 2. Updating Data with UPDATE
 2.1 Usually, update with a condition in 99% of cases.
