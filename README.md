@@ -22,7 +22,7 @@ It's one thing to just store data; it's another to manage it effectively.
 - Update Complexity
 - Accuracy
 - Access Control
-- 
+
 2. What is a DBMS?
 - Database Management System
 - A system optimized for searching and processing data.
