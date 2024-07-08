@@ -123,8 +123,10 @@ INSERT INTO projects(name, start_date) SELECT CONCAT(name, ' ', last_name), NOW(
 DELETE FROM projects WHERE start_date = '2006-01-01';
 4. Views
 - Save selection queries
+  
 CREATE VIEW v_hr_result_set AS SELECT CONCAT(first_name, ' ', last_name) AS 'full name', salary FROM employees ORDER BY department_id;
 SELECT * FROM v_hr_result_set;
+
 - Alter views with ALTER VIEW
 
 # Built-in Functions
